@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    background: linear-gradient(90deg, #0d6efd, #4dabff);
+    color: #fff;
+    padding: 80px 0;
+}
+
+.card {
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .15);
+}
+
+.detail-page {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.detail-page .container {
+    width: 100%;
+}
+
+.company-logo {
+
+    width: 220px;
+
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    border: 1px solid #ddd;
+
+}
+
+.detail-logo {
+
+    width: 350px;
+
+    height: 350px;
+
+    object-fit: contain;
+
+    background: #fff;
+
+    border: 1px solid #ddd;
+
+    border-radius: 12px;
+
+}
+
+/* ================= HERO ================= */
+
+.hero {
+
+    position: relative;
+
+    height: 400px;
+
+    background: url("../img/hero-magang.jpg") center center/cover no-repeat;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    overflow: hidden;
+
+}
+
+.hero .overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background: rgba(13, 110, 253, .45);
+
+    filter: blur(3px);
+
+}
+
+.hero-content {
+
+    position: relative;
+
+    z-index: 2;
+
+    color: #fff;
+
+}
+
+.hero-content h1 {
+
+    font-size: 58px;
+
+    font-weight: 700;
+
+}
+
+.hero-content p {
+
+    font-size: 22px;
+
+    margin: 25px 0;
+
+}
+
+.hero .btn {
+
+    padding: 14px 35px;
+
+    border-radius: 50px;
+
+}
